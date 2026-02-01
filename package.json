@@ -1,0 +1,21 @@
+{
+  "name": "kanbanflow-skill",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for managing KanbanFlow boards and tasks",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["openclaw", "skill", "kanbanflow"],
+  "author": "Abdelhak Akermi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
